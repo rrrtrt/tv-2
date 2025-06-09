@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hacker Style</title>
+  <title>Hacker Site</title>
   <style>
     body {
-      background-color: black;
+      background-image: url('your-background.jpg'); /* ✨ حط اسم الخلفية هنا */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       color: #00f;
       font-family: 'Courier New', Courier, monospace;
       text-align: center;
       padding: 20px;
-      background-image: url('https://i.imgur.com/41dVZ1y.png');
-      background-size: cover;
-      background-attachment: fixed;
+      margin: 0;
     }
 
     img {
@@ -28,8 +29,8 @@
       font-size: 26px;
       color: #00f;
       text-decoration: none;
-      display: inline-block;
       margin: 40px 0;
+      display: inline-block;
     }
 
     .discord-link:hover {
@@ -42,16 +43,29 @@
       font-size: 16px;
       white-space: pre-line;
     }
+
+    audio {
+      display: none;
+    }
   </style>
 </head>
 <body>
 
-  <img src="banner.png" alt="Banner Image">
+  <!-- 🔥 البنر -->
+  <img src="banner.png" alt="Banner">
 
+  <!-- 👾 رابط الديسكورد -->
   <a class="discord-link" href="https://discord.gg/UAE" target="_blank">
     👾 Discord.gg/UAE 👾
   </a>
 
+  <!-- 🎶 الصوت -->
+  <audio autoplay loop>
+    <source src="your-sound.mp3" type="audio/mpeg">
+    متصفحك لا يدعم تشغيل الصوت.
+  </audio>
+
+  <!-- 💻 معلومات وهمية -->
   <div class="ip-info">
 IP: "139.190.115.122"
 City: "Nablus"
